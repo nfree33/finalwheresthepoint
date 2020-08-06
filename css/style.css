@@ -145,7 +145,7 @@ body {
 .cpu-look-left{
 	display: none;
 	position: fixed;
-	left: 43%;
+	left: 47%;
 	width: 150px;
 	height: 150px;
 	/* margin: auto; */
@@ -157,7 +157,7 @@ body {
 	display: none;
 	position: fixed;
 	/* top: 20%; */
-	left: 43%;
+	left: 47%;
 	width: 150px;
 	height: 150px;
 	/* margin: auto; */
@@ -168,7 +168,7 @@ body {
 .cpu-look-up{
 	display: none;
 	position: fixed;
-	left: 43%;
+	left: 47%;
 	width: 150px;
 	height: 150px;
 	/* margin: auto; */
@@ -178,7 +178,7 @@ body {
 .cpu-look-down{
 	display: none;
 	position: fixed;
-	left: 43%;
+	left: 47%;
 	width: 150px;
 	height: 150px;
 	/* margin: auto; */
@@ -200,8 +200,8 @@ body {
 .user-look-left{
 	display: none;
 	position: fixed;
-	left: 43%;
-	bottom: 30%;
+	left: 47%;
+	bottom: 40%;
 	width: 150px;
 	height: 150px;
 	/* margin: auto; */
@@ -212,8 +212,8 @@ body {
 .user-look-right{
 	display: none;
 	position: fixed;
-	left: 43%;
-	bottom: 30%;
+	left: 47%;
+	bottom: 40%;
 	width: 150px;
 	height: 150px;
 	/* margin: auto; */
@@ -224,8 +224,8 @@ body {
 .user-look-up{
 	display: none;
 	position: fixed;
-	left: 43%;
-	bottom: 30%;
+	left: 47%;
+	bottom: 40%;
 	width: 150px;
 	height: 150px;
 	/* margin: auto; */
@@ -235,8 +235,8 @@ body {
 .user-look-down{
 	display: none;
 	position: fixed;
-	left: 43%;
-	bottom: 30%;
+	left: 47%;
+	bottom: 40%;
 	width: 150px;
 	height: 150px;
 	/* margin: auto; */
@@ -264,7 +264,7 @@ body {
 .cpu-point-spin {
 	display: block;
 	position: fixed;
-	left: 43%;
+	left: 47%;
 	background-image: url(https://www.publicdomainpictures.net/pictures/280000/t2/question-mark-1544553868vD2.jpg);
 	width: 150px;
 	height: 150px;
@@ -275,7 +275,7 @@ body {
 .cpu-point-left {
 	display: none;
 	position: fixed;
-	left: 43%;
+	left: 47%;
 	background-image: url(http://photos1.fotosearch.com/bthumb/CSP/CSP990/k11378166.jpg);
 	width: 150px;
 	height: 150px;
@@ -285,7 +285,7 @@ body {
 .cpu-point-right {
 	display: none;
 	position: fixed;
-	left: 43%;
+	left: 47%;
 	background-image: url(http://photos1.fotosearch.com/bthumb/CSP/CSP990/k11378166.jpg);
 	width: 150px;
 	height: 150px;
@@ -296,7 +296,7 @@ body {
 .cpu-point-up {
 	display: none;
 	position: fixed;
-	left: 43%;
+	left: 47%;
 	background-image: url(http://photos1.fotosearch.com/bthumb/CSP/CSP990/k11378166.jpg);
 	width: 150px;
 	height: 150px;
@@ -307,7 +307,7 @@ body {
 .cpu-point-down {
 	display: none;
 	position: fixed;
-	left: 43%;
+	left: 47%;
 	background-image: url(http://photos1.fotosearch.com/bthumb/CSP/CSP990/k11378166.jpg);
 	width: 150px;
 	height: 150px;
@@ -329,8 +329,8 @@ body {
 .user-point-left {
 	display: none;
 	position: fixed;
-	left: 43%;
-	bottom: 30%;
+	left: 47%;
+	bottom: 40%;
 	background-image: url(http://photos1.fotosearch.com/bthumb/CSP/CSP990/k11378166.jpg);
 	width: 150px;
 	height: 150px;
@@ -340,8 +340,8 @@ body {
 .user-point-right {
 	display: none;
 	position: fixed;
-	left: 43%;
-	bottom: 30%;
+	left: 47%;
+	bottom: 40%;
 	background-image: url(http://photos1.fotosearch.com/bthumb/CSP/CSP990/k11378166.jpg);
 	width: 150px;
 	height: 150px;
@@ -353,8 +353,8 @@ body {
 .user-point-down {
 	display: none;
 	position: fixed;
-	left: 43%;
-	bottom: 30%;
+	left: 47%;
+	bottom: 40%;
 	background-image: url(http://photos1.fotosearch.com/bthumb/CSP/CSP990/k11378166.jpg);
 	width: 150px;
 	height: 150px;
@@ -365,8 +365,8 @@ body {
 .user-point-up {
 	display: none;
 	position: fixed;
-	left: 43%;
-	bottom: 30%;
+	left: 47%;
+	bottom: 40%;
 	background-image: url(http://photos1.fotosearch.com/bthumb/CSP/CSP990/k11378166.jpg);
 	width: 150px;
 	height: 150px;
