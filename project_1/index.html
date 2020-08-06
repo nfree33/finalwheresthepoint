@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <script src="javascript/app.js" charset="utf-8"></script>
+    <title>Where's the Point?!</title>
+</head>
+<body>
+
+    <button class="modal-buttons" id="openModal">About the Game</button>
+    <div id="modal">
+      <div id="modal-textbox">
+        <h1 class="modal-header">How to Play</h1>
+        <p>'Where's the Point?' is based off a 2019 viral game that took the nation by storm. It's fun, easy, and can be played anywhere!
+        <p>The rules are simple. Players take alternating turns on offense and defense:
+            <ul> 
+                <li class="modal-list">Offense: you point either up, down, left, or right, using the directionals on the keypad.</li>
+                <li class="modal-list">Defense: 'Look' in a specific direction before the CPU points. Look by using (W) for up, (A) for left, (S) for down, and (D) for right.</li>
+                <li class="modal-list">In this digital version, you have three lives. The game is over once you or the CPU loses all their lives.</li>
+            </ul>
+        </p></p>
+        <div id="modal-footer">
+          <button class="modal-buttons" id="close" href="#">Close</button>
+        </div>
+      </div>
+    </div>
+    <button class="select-opponent-button"><div class="select-opponent">START GAME</div></button>
+    <h1 class="game-title">WHERE'S THE POINT?</h1>
+    <div class="container">
+        <div class="lives">CPU WINS
+          <ul class="lives-remaining">
+            <li class="list-of-lives" id="cpu-3">3</li>
+            <li class="list-of-lives" id="cpu-2">2</li>
+            <li class="list-of-lives" id="cpu-1">1</li>
+          </ul>
+        </div>
+        <div class="game-window">
+          <div class="starting-point"></div>
+          <div class="cpu-look-left"></div>
+          <div class="cpu-look-right"></div>
+          <div class="cpu-look-up"></div>
+          <div class="cpu-look-down"></div>
+          <div class="cpu-point-left"></div>
+          <div class="cpu-point-right"></div>
+          <div class="cpu-point-up"></div>
+          <div class="cpu-point-down"></div>
+          <div class="cpu-point-spin"></div>
+
+          <div class="user-look-left"></div>
+          <div class="user-look-right"></div>
+          <div class="user-look-up"></div>
+          <div class="user-look-down"></div>
+          <div class="user-point-left"></div>
+          <div class="user-point-right"></div>
+          <div class="user-point-down"></div>
+          <div class="user-point-up"></div>
+          <div class="user-point-spin"></div>
+
+        </div>
+        <div class="lives">YOUR WINS
+          <ul class="lives-remaining">
+            <li class ="list-of-lives" id="my-lives-3">3</li>
+            <li class ="list-of-lives" id="my-lives-2">2</li>
+            <li class ="list-of-lives" id="my-lives-1">1</li>
+          </ul>
+        </div>
+      </div> 
+    <button class="start-offense-button"><div class="start-offense">OFFENSE</div></button>
+    <button class="start-defense-button"><div class="start-defense">DEFENSE</div></button>
+</body>
+</html>
